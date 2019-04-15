@@ -1,9 +1,11 @@
 body {
-	background-color: #3D62A6;
+	background-color: #19297C;
 }
 
 #bigbox {
 	max-width: 100%;
+	height: -webkit-fill-available;
+	background-color: #585481;
 }
 
 #box1 {
