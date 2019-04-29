@@ -4,7 +4,7 @@ function dropbutton() {
 
 window.onclick = function(event) {
 	if (!event.target.matches(".button2")) {
-		var drop = document.getElementsById("mtList");
+		var drop = document.getElementsById("myList");
 		var i;
 		for (var i = 0; i < drop.length; i++) {
 			var openDrop = drop[i];
